@@ -1,48 +1,36 @@
-# Flask-Calculator-Beginner
-This is Beginners Friendly Flask Application which does the basic arithmetic operations (+,-,*,/) 
+# Mundana - Free Bootstrap HTML Blogging Template
 
-Visit the Docker Hub to see more containers
+Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
 
-## Pull the docker Image
-```
-docker pull santhoshkdhana/flask-calculator-beginner:latest
-```
-## Start the container
-```
-docker container run -d -p 5000:5000 --name=santyflask flask-calculator-beginner
-```
+[Live Demo](https://wowthemesnet.github.io/template-mundana-bootstrap-html/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-mundana-bootstrap-html/archive/master.zip)
 
+[![screenshot](assets/img/screenshot-mundana.png)](https://wowthemesnet.github.io/template-mundana-bootstrap-html/)
 
-# Flask Calculator
-The container will expose port **5000**
+## Getting Started
 
-**API**
+* [Theme Details](https://www.wowthemes.net/mundana-free-html-bootstrap-template/)
+* [Documentation](https://wowthemesnet.github.io/template-mundana-bootstrap-html/docs.html).
 
-POST - /add
+## Built With
 
-POST - /subtract
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Gulp](https://gulpjs.com/)
+* [SASS](https://sass-lang.com/)
 
-POST- /multiply
+## Copyright
 
-POST- /division
+Copyright (C) 2019 WowThemes.net.
 
-send POST request to the endpoints with a JSON in the body
+Designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
 
-x is the first variable
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-y is the second variable
+## Contribute
 
-Sample JSON:
-```JSON
-{
-    "x":193,
-    "y":657
-}
-```
-Sample Response:
-```JSON
-{
-    "Message": -464,
-    "Status Code": 200
-}
-```
+Let's make this even better!
+
+- [Clone the repo](https://github.com/wowthemesnet/template-mundana-bootstrap-html.git).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
+- Open a pull request on GitHub and describe the feature or fix.
+
+Thank you for your support!
